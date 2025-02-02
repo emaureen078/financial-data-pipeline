@@ -1,0 +1,36 @@
+# Ignore system directories and personal files
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+OneDrive/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Music/
+Videos/
+
+# Ignore IDE-specific files
+.vscode/
+
+# Ignore AWS and other sensitive files
+.aws/
+.ssh/
+
+# Ignore Node modules (if applicable)
+node_modules/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ignore Lambda ZIP files
+*.zip
